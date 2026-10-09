@@ -1,0 +1,6 @@
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Automated Traffic Fine System',
+  description: 'Starter project for a digital traffic fine platform on Vercel.'
+};
