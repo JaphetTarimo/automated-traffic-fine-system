@@ -1,12 +1,9 @@
-import type { Metadata } from 'next';
-import './globals.css';
-
-export const metadata: Metadata = {
-  title: 'Traffic Fine Automation System',
-  description: 'Starter platform for automated traffic violation detection, fine processing, and citizen portal.'
+export const metadata = {
+  title: 'Traffic4U - Automated Traffic Fine System',
+  description: 'Next-generation AI-powered traffic violation detection and fine management system. Powered by Vercel.'
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body>{children}</body>
